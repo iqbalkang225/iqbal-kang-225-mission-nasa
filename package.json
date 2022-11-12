@@ -1,0 +1,17 @@
+{
+  "name": "nasa-mission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "start": "npm run server & npm run client",
+    "install-client": "npm i --prefix client",
+    "install-server": "npm i --prefix server",
+    "install": "npm run install-client && npm run install-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
